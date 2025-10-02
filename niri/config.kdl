@@ -42,6 +42,11 @@ input {
         scale 1
 }
 
+// Autostart Programs //
+
+spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &" // Polkit
+
+
 // Keybindings //
 
 binds {

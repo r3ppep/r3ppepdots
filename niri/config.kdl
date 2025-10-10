@@ -298,7 +298,7 @@ hotkey-overlay {
 
 
 window-rule {
-    geometry-corner-radius 20
+    geometry-corner-radius 15
     clip-to-geometry true
 }
 

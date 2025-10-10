@@ -25,6 +25,6 @@ install Cider //payed Apple Music player//
 
 debloat brave
 
-<code>git clone https://github.com/MulesGaming/brave-debloatinator/blob/main/brave-bullshitinator-linux-install.sh</code>
-<code>chmod +x brave-bullshitinator-linux-install.sh</code>
-<code>./brave-bullshitinator-linux-install.sh</code>
+<code>git clone https://github.com/MulesGaming/brave-debloatinator/blob/main/brave-bullshitinator-linux-install.sh</code><br>
+<code>chmod +x brave-bullshitinator-linux-install.sh</code><br>
+<code>./brave-bullshitinator-linux-install.sh</code><br>

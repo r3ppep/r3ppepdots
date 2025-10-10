@@ -13,9 +13,9 @@ move fastfetch to ~/.config/fastfetch
 set environment
 
 <code>sudo nano /etc/environment</code>
-<i>copied from noctalia shell FAQ</i>
+<i>copied from noctalia shell FAQ</i><br>
 <code>QT_QPA_PLATFORMTHEME=gtk3
-      QT_QPA_PLATFORMTHEME=qt6ct
+QT_QPA_PLATFORMTHEME=qt6ct
       # QS_ICON_THEME="youricontheme" #only use if icon theme installed
 </code>
 

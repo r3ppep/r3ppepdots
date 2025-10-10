@@ -6,9 +6,9 @@ clone my dots
 
 <code>git clone https://github.com/r3ppep/r3ppepdots</code>
 
-then move niri kdl to ~/.config/niri
-move alacritty to ~/.config/alacritty
-move fastfetch to ~/.config/fastfetch
+then move niri kdl to ~/.config/niri<br>
+move alacritty to ~/.config/alacritty<br>
+move fastfetch to ~/.config/fastfetch<br>
 
 set environment
 

@@ -55,8 +55,8 @@ input {
 
 // Autostart Programs //
 
-spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &" // Polkit
-spawn-at-startup "qs" "-c" "noctalia-shell"
+//spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1" // Polkit
+spawn-at-startup "noctalia"
 spawn-at-startup "xwayland-satellite" // XWayland support
 spawn-at-startup "swayidle" "-w" "timeout" "600" "niri msg action power-off-monitors" "resume" "niri msg action power-on-monitors"
 
@@ -69,7 +69,7 @@ binds {
     //Apps//
     MOD+RETURN          hotkey-overlay-title="Open Terminal: Alacritty" { spawn "alacritty"; }
     MOD+V               hotkey-overlay-title="Open App Launcher" { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "toggle";}
-    MOD+B               hotkey-overlay-title="Open Browser" { spawn "brave"; }
+    //MOD+B               hotkey-overlay-title="Open Browser" { spawn "brave"; }
 
 
     // File Manager //
